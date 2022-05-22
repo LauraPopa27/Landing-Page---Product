@@ -389,6 +389,7 @@ body > section:last-child {
     margin-bottom: 40px;
 }
 
+
 .section-row-3-cols-item-1{
     grid-area: grid-col-1;
     width: 350px;
@@ -818,7 +819,7 @@ footer .primary-button{
 
     }
 
-    /* ///////////////// */
+    
 
     .section-row-3-cols{
         display: grid;
@@ -859,7 +860,7 @@ footer .primary-button{
         text-align: center;
         margin: 16px 0 0;
         padding: 0;
-        width: 60%;
+        width: 80%;
     }
 
     .section-row-3-cols-p{
@@ -1036,7 +1037,49 @@ footer .primary-button{
         align-items: center;
     }
 
-    /* .section-row-3-cols{
+    .content-strategies-section > .section-row-3-cols > div{
+        align-items: flex-start;
+        border: none;
+    }
+
+    .content-strategies-section  h4{
+        text-align: left;
+        margin: 16px 0 0;
+        padding: 0;
+        width: 60%;
+    }
+
+    .compannies-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 371px;
+        height: 688px;
+    }
+
+    .compannies-section h2{
+        text-align: center;
+        width: 100%;
+    }
+
+
+    footer .section-row-4-cols{
+        display: grid;
+        grid-template-areas: 
+        'grid-col-1'
+        'grid-col-2'
+        'grid-col-3'
+        'grid-col-4'
+        ;
+        gap: 0;
+        margin-bottom: 20px;
+    }
+
+    /* //////////////////////////// */
+
+     /* .section-row-3-cols{
         display: grid;
         grid-template-areas: 
         'grid-col-1'
@@ -1055,16 +1098,6 @@ footer .primary-button{
         margin-bottom: 0;
         width: 100%;
         padding: 0;
-    }
-
-	.content-strategies-section > .section-row-3-cols > div{
-        align-items: flex-start;
-        border: none;
-    }
-
-    .content-strategies-section > p{
-        margin-bottom: 1.25em;
-        text-align: center;
     }
 
     .section-3-row > h3{
@@ -1154,33 +1187,6 @@ footer .primary-button{
         margin: 0;
         padding: 0 7px 0 0;
     } */
-
-    .compannies-section{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        width: 371px;
-        height: 688px;
-    }
-
-    .compannies-section h2{
-        text-align: center;
-        width: 100%;
-    } 
-
-    footer .section-row-4-cols{
-        display: grid;
-        grid-template-areas: 
-        'grid-col-1'
-        'grid-col-2'
-        'grid-col-3'
-        'grid-col-4'
-        ;
-        gap: 0;
-        margin-bottom: 20px;
-    }
 
 }
 
